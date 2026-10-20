@@ -1,0 +1,6 @@
+*.local.json
+.DS_Store
+.idea/
+.junie/
+_pycache/
+*.pyc
