@@ -7,6 +7,11 @@
       "name": "spring",
       "description": "Conventions for Spring Boot projects: testing, code style, JPA, REST.",
       "source": "./plugins/spring"
+    },
+    {
+      "name": "react",
+      "description": "Conventions for React and Next.js projects: performance, rendering, data fetching.",
+      "source": "./plugins/react"
     }
   ]
 }
