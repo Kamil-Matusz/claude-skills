@@ -1,0 +1,5 @@
+{
+    "name": "security",
+    "version": "0.1.0",
+    "description": "Security checks for the agent toolchain: auditing third-party skills, plugins and MCP servers."
+}

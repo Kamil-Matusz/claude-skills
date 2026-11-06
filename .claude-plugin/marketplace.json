@@ -12,6 +12,11 @@
       "name": "react",
       "description": "Conventions for React and Next.js projects: performance, rendering, data fetching.",
       "source": "./plugins/react"
+    },
+    {
+      "name": "security",
+      "description": "Security checks for the agent toolchain: auditing third-party skills, plugins and MCP servers.",
+      "source": "./plugins/security"
     }
   ]
 }
