@@ -44,12 +44,11 @@ Skills trigger automatically when the task matches their description. You can al
 .claude-plugin/marketplace.json        # marketplace manifest listing the plugins
 plugins/<plugin>/.claude-plugin/plugin.json
 plugins/<plugin>/skills/<skill>/SKILL.md
-CHANGELOG.md
 ```
 
 ## Contributing
 
 - Put a new skill under the plugin that owns it: `plugins/<plugin>/skills/<name>/SKILL.md`. The invocation prefix comes from the plugin directory.
-- Skills are auto-discovered; don't list them in `plugin.json` and don't bump its `version` when adding a skill.
-- Add an entry under `## [Unreleased]` in [CHANGELOG.md](CHANGELOG.md) for every change.
+- Skills are auto-discovered; don't list them in `plugin.json`.
+- Bump `version` in the plugin's `plugin.json` with every change to it, otherwise installed copies won't update: patch for fixes, minor for a new skill, major for a removed or renamed skill.
 - Run `/reload-plugins` to pick up changes in the current Claude Code session.

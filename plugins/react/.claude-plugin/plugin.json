@@ -1,5 +1,6 @@
 {
     "name": "react",
     "version": "0.1.0",
-    "description": "Conventions for React and Next.js projects: performance, rendering, data fetching."
+    "description": "Conventions for React and Next.js projects: performance, rendering, data fetching.",
+    "author": { "name": "Kamil Matusz" }
 }

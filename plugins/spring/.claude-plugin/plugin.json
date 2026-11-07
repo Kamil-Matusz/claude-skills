@@ -1,5 +1,6 @@
 {
     "name": "spring",
     "version": "0.1.0",
-    "description": "Conventions for Spring Boot projects: testing, code style, JPA, REST."
+    "description": "Conventions for Spring Boot projects: testing, code style, JPA, REST.",
+    "author": { "name": "Kamil Matusz" }
 }
